@@ -67,7 +67,10 @@ void mergeSort(int low, int high) {
         k++;
     }
 
-  
+    // Copy balik dari array bantuan B ke array utama arr
+    for (int x = low; x <= high; x++) {
+        arr[x] = B[x];
+    }
 }
 
 
