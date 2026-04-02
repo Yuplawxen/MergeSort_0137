@@ -30,6 +30,17 @@ void mergeSort(int low, int high) {
     if (low >= high) { // Base case: Jika tumpukan tinggal 1 elemen
         return;
     }
+
+    int mid = (low + high) / 2; // Mencari titik tengah
+
+  
+
+
+   
+
+   
+
+  
 }
 
 
