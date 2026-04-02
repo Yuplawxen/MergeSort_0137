@@ -60,7 +60,12 @@ void mergeSort(int low, int high) {
         k++;
     }
 
-   
+    // Jika ada sisa di bagian kiri
+    while (i <= mid) {
+        B[k] = arr[i];
+        i++;
+        k++;
+    }
 
   
 }
